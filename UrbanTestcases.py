@@ -40,7 +40,7 @@ class TestcasesField:
         assert self.urbanhome.get_phone_code() != "Introduce él código" #Comprobar que se escribió el "codigo SMS"
         self.urbanhome.click_confirm_code()
 
-#Hacer click en "Método de pago"
+#Hacer click en el "Metodo de pago"
     def test_4_pay_method(self):
         self.urbanhome.click_method_pay()
 
