@@ -6,6 +6,7 @@ Se utiliza `Selenium WebDriver` en `Python`.
 
 ## Estrucutura del proyecto
 
+- main.py: Contiene la función `retrieve_phone_code` que entrega el codigo del SMS.
 - data.py: Contiene datos de entrada (como direcciones, teléfono, etc.).
 - UrbanLocators.py: Contiene los localizadores de elementos web (XPaths, IDs, etc.).
 - UrbanMethods.py: Contiene funciones/metodos reutilizables para interactuar con la web.

@@ -85,7 +85,7 @@ class TestcasesField:
 
 
     @classmethod
-    def teardown(cls):
+    def teardown_class(cls):
         cls.driver.quit()
 
 
